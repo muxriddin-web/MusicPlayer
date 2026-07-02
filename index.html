@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/svg+xml" href="./music-player-song-svgrepo-com1.svg"/>
+</head>
+<body>
+    <div class="player-container">
+        <div class="song-info">
+            <h2 class="song-title" id="song-title">Spirit in the Sky</h2>
+            <p class="artist" id="artist-name">Keiino</p>
+        </div>
+        
+        <div class="progress-container">
+            <div class="time current-time">0:00</div>
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="time total-time">3:05</div>
+        </div>
+        
+        <div class="controls">
+            <button class="control-btn shuffle">
+                <i class="fas fa-random"></i>
+            </button>
+            <button class="control-btn prev">
+                <i class="fas fa-step-backward"></i>
+            </button>
+            <button class="control-btn play-pause">
+                <i class="fas fa-play"></i>
+            </button>
+            <button class="control-btn next">
+                <i class="fas fa-step-forward"></i>
+            </button>
+            <button class="control-btn repeat">
+                <i class="fas fa-redo"></i>
+            </button>
+        </div>
+        
+        <div class="volume-container">
+            <i class="fas fa-volume-up volume-icon"></i>
+            <input type="range" min="0" max="1" step="0.01" value="1" class="volume-slider">
+        </div>
+        
+        <div class="other-controls">
+            <button class="control-btn connect" title="Qurilmadan musiqa yuklash">
+                <i class="fas fa-desktop"></i>
+            </button>
+            <button class="control-btn queue">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <div class="favorite-container">
+            <i class="fa-regular fa-heart"></i>
+        </div>
+    </div>
+
+    <input type="file" id="local-file-input" accept="audio/*" multiple style="display: none;">
+    <audio id="audio"></audio>
+   
+    <script src="./main.js"></script>
+</body>
+</html>

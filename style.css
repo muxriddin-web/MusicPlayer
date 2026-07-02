@@ -1,0 +1,153 @@
+body {
+    font-family: sans-serif;
+    background-color: #ac3802;
+    color: rgb(246, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.player-container {
+    background-color: #3f0606;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 5px 15px rgba(68, 68, 68, 0.4);
+    position: relative;
+}
+
+.song-info {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.song-title {
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    word-break: break-word; /* Uzun nomlarni sig'dirish uchun */
+}
+
+.artist {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+    color: rgb(198, 190, 190);
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.time {
+    font-size: 0.75em;
+    width: 40px;
+}
+
+.progress {
+    flex: 1;
+    background-color: #333;
+    height: 5px;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.progress-bar {
+    background-color: #fff;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.other-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.control-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 5px;
+    outline: none;
+    transition: all 0.2s;
+}
+
+.control-btn:hover {
+    color: #1DB954;
+    transform: scale(1.1);
+}
+
+.control-btn.play-pause {
+    font-size: 2em;
+    background-color: #fff;
+    color: #121212;
+    border-radius: 50%;
+    padding: 15px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-btn.play-pause:hover{
+    color: #121212;
+    transform: scale(1.05);
+}
+
+/* Shuffle va Repeat yongandagi yorqin holati */
+.control-btn.shuffle.active i,
+.control-btn.repeat.active i {
+   color: #1DB954;
+   text-shadow: 0 0 10px #1DB954;
+}
+
+.favorite-container {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.favorite-container:hover {
+    color: #ff2a2a;
+}
+.favorite-container i.fas {
+  color: #ff2a2a;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.volume-icon {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 20px;
+}
+
+.volume-slider {
+    flex: 1;
+    cursor: pointer;
+    accent-color: #1DB954; /* Zamonaviy yashil rangli slayder */
+}
