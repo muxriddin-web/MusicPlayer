@@ -45,7 +45,7 @@ Optimized JavaScript ensures smooth playback and responsive interactions across 
 
 <div align="center">
   <a href="https://mfs-portfoliouz.netlify.app/projects">
-    <img src="photo_2026-07-15_11-01-29.jpg" alt="Checkers Game Demo" width="600"/>
+    <img src="Screenshot_5.png" alt="Demo" width="600"/>
   </a>
   <p><i>Click to watch the demo on my portfolio</i></p>
 </div>
