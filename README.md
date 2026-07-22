@@ -43,7 +43,12 @@ Optimized JavaScript ensures smooth playback and responsive interactions across 
 
 # 📸 Preview
 
-**Modern Music Player Demo**
+<div align="center">
+  <a href="https://mfs-portfoliouz.netlify.app/projects">
+    <img src="photo_2026-07-15_11-01-29.jpg" alt="Checkers Game Demo" width="600"/>
+  </a>
+  <p><i>Click to watch the demo on my portfolio</i></p>
+</div>
 
 *Click to listen using the live demo.*
 
