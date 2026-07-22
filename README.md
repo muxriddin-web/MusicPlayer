@@ -44,7 +44,7 @@ Optimized JavaScript ensures smooth playback and responsive interactions across 
 # 📸 Preview
 
 <div align="center">
-  <a href="https://mfs-portfoliouz.netlify.app/projects">
+  <a href="https://mfs-portfoliouz.netlify.app/portfolio1/projects">
     <img src="Screenshot_5.png" alt="Demo" width="600"/>
   </a>
   <p><i>Click to watch the demo on my portfolio</i></p>
