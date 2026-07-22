@@ -218,7 +218,7 @@ If you have questions, suggestions, or feedback, feel free to reach out.
 ### Project Repository
 
 ```text
-https://github.com/muxriddin-web/music-player
+https://github.com/muxriddin-web/MusicPlayer
 ```
 
 ### Author
