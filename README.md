@@ -69,7 +69,7 @@ Optimized JavaScript ensures smooth playback and responsive interactions across 
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/muxriddin-web/MusicPlayer
+git clone https://github.com/muxriddin-web/MusicPlayer.git
 ```
 
 ---
